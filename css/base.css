@@ -110,8 +110,11 @@ h1, p {
 	width: 90%;
 	margin-bottom: 20px;
 	padding-bottom: 100px;
-
+	transition: transform 250ms;
 }
+.bigcroco:hover {
+    transform: translateY(-10px);
+  }
 
 /* features */
 
@@ -144,7 +147,10 @@ h1, p {
 	margin: -100px auto;
 	margin-right: 100px;
 	width: 25%;
+	transition: transform 250ms;
 }
+.L:hover {
+    transform: translateY(-10px);}
 
 /* ZASECHKI */
 
@@ -160,7 +166,12 @@ h1, p {
 	margin: -100px auto;
 	margin-left: 100px;
 	width: 25%;
+	transition: transform 250ms;
 }
+
+.N:hover {
+    transform: translateY(-10px);}
+
 
 /* CONTRAST */
 
@@ -170,12 +181,18 @@ h1, p {
 	margin-top: 25px;
 }
 
+
 .X {
 	display: block;
 	margin: -100px auto;
 	margin-right: 100px;
 	width: 25%;
+	transition: transform 250ms;
 }
+
+.X:hover {
+    transform: translateY(-10px);}
+
 
 /* TREE */
 
