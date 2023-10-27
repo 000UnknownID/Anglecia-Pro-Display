@@ -1,0 +1,252 @@
+@font-face {
+	font-family: "AngleciaProDisplay-Italic" ;
+	src: url(../Fonts/AngleciaProDisplay-Italic.otf);
+	font-weight: italic ;
+	font-style: italic;}
+
+@font-face {
+	font-family: "AngleciaProDisplay-Regular" ;
+	src: url(../Fonts/AngleciaProDisplay-Regular.otf);
+	font-weight: normal ;
+	font-style: normal;
+}
+
+h1, p {
+	font-family: "AngleciaProDisplay-Regular";
+}
+
+/* TOP BG */
+
+.bg {
+	background-color: black;
+	height: 1050px;
+}
+
+.font-name {
+	z-index: 1;
+	position: relative;
+	color: #FFF;
+    font-size: 200px;
+    font-style: normal;
+	line-height: normal;
+    text-align: left;
+	margin-left: 275px;
+	margin-top: -25px;
+}
+
+.snake {
+	margin-top: 5px;
+}
+
+.giraph {
+	position: absolute;
+	top: 110px;
+	left: 20px;
+}
+
+.crab {
+	z-index: -1;
+	width: 427px;
+    height: 340px;
+    transform: rotate(25deg);
+	margin-left: 400px;
+
+}
+
+.croco {
+	z-index: -1;
+	width: 629px;
+	height: 250px;
+	transform: rotate(-45deg) scaleX(-1);
+	float: right;
+	position: flex;
+	margin-top: -50px;
+	margin-left: 30px;
+	
+}
+
+/* Description box */
+
+.about {
+	font-size: 100px;
+	margin-top: 40px;
+	margin-left: 300px;
+}
+
+.desc {
+	font-size: 60px;
+	margin-left: 300px;
+	margin-top: 15px;
+}
+
+/* Warning box */
+
+.warning-box {
+	margin: 50px auto;
+	display: block;
+	width: 80%;
+	border: 5px solid;
+	border-color: black;
+}
+
+.warning {
+	font-size: 150px;
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 50px;
+
+}
+
+.hereis {
+	font-size: 75px;
+	text-align: left;
+	margin-left: 175px;
+
+}
+
+.bigcroco {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	margin-bottom: 20px;
+	padding-bottom: 100px;
+
+}
+
+/* features */
+
+.features {
+	background-color: black;
+	color: white;
+	padding-bottom: 20px;
+}
+
+.feat-text {
+	font-size: 100px;
+	margin-left: 175px;
+	padding-top: 20px;
+}
+
+.feat-block {
+	margin-bottom: 200px;
+}
+
+/* KAPLI */
+
+.kapli {
+	font-size: 60px;
+	margin-left: 175px;
+	margin-top: 25px;
+}
+
+.L {
+	display: block;
+	margin: -100px auto;
+	margin-right: 100px;
+	width: 25%;
+}
+
+/* ZASECHKI */
+
+.zasechki {
+	font-size: 60px;
+	margin-top: 25px;
+	margin-right: 175px;
+	float: right;
+}
+
+.N {
+	display: block;
+	margin: -100px auto;
+	margin-left: 100px;
+	width: 25%;
+}
+
+/* CONTRAST */
+
+.contrast {
+	font-size: 60px;
+	margin-left: 175px;
+	margin-top: 25px;
+}
+
+.X {
+	display: block;
+	margin: -100px auto;
+	margin-right: 100px;
+	width: 25%;
+}
+
+/* TREE */
+
+.tree-block {
+	width: 50%;
+	margin: 0 auto;
+	border: 5px solid;
+	border-color: white;
+}
+
+.tree { 
+	margin-left: 40px;
+	width: 90%;
+	margin-top: 20px;
+	
+
+
+}
+
+/* Styles block */
+
+.styles, .regular, .italic {
+	font-size: 80px;
+	margin-top: 20px;
+	margin-left: 300px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.ticket-block {
+	text-align: center;
+	margin-top: 20px;
+	
+}
+
+.ticket {
+	width: 80%;
+}
+
+/* ALPHABET */
+
+.alpha-text, .alphabet, .num-text, .gliphs-text {
+	font-size: 80px;
+	margin-top: 40px;
+	margin-left: 300px;
+}
+
+
+.nums {
+	justify-content: center;
+	display: flex;
+	gap: 50px;
+}
+
+.footer {
+	margin-top: 30px;
+	display: flex;
+	width: 100%;
+	background-color: black;
+	color: #FFF;
+	font-size: 40px;
+	justify-content: space-between;
+}
+
+.footertext{
+	margin-right: 60px;
+	align-self: center;
+}
+.hse{
+	align-self: center;
+	width: 25%;
+}
